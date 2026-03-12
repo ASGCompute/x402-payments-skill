@@ -287,7 +287,8 @@ export const requirePayment = (amountAtomic: string) => {
 |---|---------|---------|
 | **Network ID** | `stellar:testnet` | `stellar:pubnet` |
 | **RPC URL** | `https://soroban-testnet.stellar.org` | `https://mainnet.sorobanrpc.com` |
-| **Facilitator** | `https://channels.openzeppelin.com/x402/testnet` | Production facilitator (self-hosted or OZ) |
+| **Facilitator** | `https://channels.openzeppelin.com/x402/testnet` | `https://channels.openzeppelin.com/x402` |
+| **Facilitator API Key** | [Generate testnet key](https://channels.openzeppelin.com/testnet/gen) | [Generate mainnet key](https://channels.openzeppelin.com/gen) |
 | **USDC Contract** | Testnet SAC address | `CCW67TSZV3SSS2HXMBQ5JFGCKJNXKZM7UQUWUZPUTHXSTZLEO7SJMI75` |
 | **Token** | Testnet USDC (free from faucets) | Real USDC |
 | **Funding** | Stellar Friendbot | Regular account funding |

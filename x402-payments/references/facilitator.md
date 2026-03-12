@@ -29,7 +29,9 @@ Server (API)                    Facilitator (OZ Channels)
 | Environment | URL |
 |-------------|-----|
 | **Stellar Testnet** | `https://channels.openzeppelin.com/x402/testnet` |
-| **Stellar Mainnet** | Self-hosted or contact OZ for production access |
+| **Stellar Mainnet** | `https://channels.openzeppelin.com/x402` |
+| **Testnet API Key** | [Generate at channels.openzeppelin.com/testnet/gen](https://channels.openzeppelin.com/testnet/gen) |
+| **Mainnet API Key** | [Generate at channels.openzeppelin.com/gen](https://channels.openzeppelin.com/gen) |
 | **Base/Solana** (for reference) | `https://x402.org/facilitator` |
 
 ## API Endpoints
