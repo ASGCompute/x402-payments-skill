@@ -1,0 +1,20 @@
+{
+  "name": "stellar-x402-client",
+  "version": "1.0.0",
+  "description": "Agent payment client for x402 APIs on Stellar",
+  "type": "module",
+  "scripts": {
+    "start": "tsx client.ts",
+    "build": "tsc",
+    "start:built": "node dist/client.js"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "^13.1.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}

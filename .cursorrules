@@ -1,0 +1,30 @@
+# x402 Payments Skill — Stellar Edition
+# This file configures Cursor / Windsurf to use the x402 payments skill.
+
+# When the user asks about:
+# - x402 payments
+# - paid APIs
+# - agent payments on Stellar
+# - USDC payments on Stellar
+# - Soroban payment middleware
+# - facilitator routing
+# - OZ Channels
+#
+# Read and follow the instructions in x402-payments/SKILL.md
+# Reference files are in x402-payments/references/
+
+# Key concepts:
+# - x402 is an HTTP 402-based payment protocol by Coinbase
+# - Stellar uses Soroban smart contracts for USDC transfers
+# - Auth-entry signing (not full transaction signing) is used
+# - OZ Channels facilitator handles verify/settle/supported
+# - Clients don't need XLM — facilitator sponsors all fees
+# - CAIP-2 network identifiers: stellar:pubnet / stellar:testnet
+
+# Quick reference:
+# - SKILL.md: Decision tree + quick starts
+# - references/stellar.md: Full Stellar setup
+# - references/facilitator.md: Facilitator routing
+# - references/packages.md: npm package matrix
+# - examples/stellar-x402-server/: Express server example
+# - examples/stellar-x402-client/: Agent client example
