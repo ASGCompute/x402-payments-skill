@@ -106,6 +106,8 @@ Set `STELLAR_PAY_TO_ADDRESS` (your G... address) and optionally `OZ_RELAYER_API_
 
 ## Quick Start: Buyer on Stellar (Agent Client)
 
+> **Prerequisites**: Your agent needs a funded Stellar wallet with a USDC trustline. See [`references/wallet-setup.md`](references/wallet-setup.md) for the one-time setup (keypair → XLM → trustline → USDC).
+
 Call a paid x402 endpoint from an AI agent or Node.js script:
 
 ```bash
@@ -349,6 +351,7 @@ npm start
 
 ## Reference Files
 
+- `references/wallet-setup.md` — **Agent wallet setup** (keypair, trustline, USDC funding)
 - `references/stellar.md` — Complete Stellar setup (Soroban, Freighter, OZ Channels, auth entries)
 - `references/facilitator.md` — Facilitator routing (verify / settle / supported)
 - `references/packages.md` — All npm packages
