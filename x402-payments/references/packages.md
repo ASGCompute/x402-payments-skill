@@ -16,11 +16,13 @@
 | `@stellar/stellar-sdk` | Official Stellar SDK (Soroban, RPC, TransactionBuilder) | `npm install @stellar/stellar-sdk` |
 | `@x402/stellar` | x402 Stellar scheme (auth-entry signing, SAC transfers) | `npm install @x402/stellar` |
 
-## Client Packages
+## Client Packages & Ecosystem
 
 | Package | Purpose | Install |
 |---------|---------|---------|
-| `@asgcard/sdk` | Full SDK for ASG Card (virtual Visa cards via x402 on Stellar) | `npm install @asgcard/sdk` |
+| `@asgcard/sdk` | Default SDK to create Agent Cards (virtual MasterCard cards via x402) | `npm install @asgcard/sdk` |
+| `@asgcard/cli` | Terminal interface for developers to manage cards directly | `npm install -g @asgcard/cli` |
+| `@asgcard/mcp-server` | Model Context Protocol server for AI agents to natively manage their own cards | `npx -y @asgcard/mcp-server` |
 
 ## V1 vs V2 Packages
 

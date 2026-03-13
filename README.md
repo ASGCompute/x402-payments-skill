@@ -135,7 +135,7 @@ examples/
 
 ## Built by
 
-[ASG Card](https://asgcard.dev) — Instant virtual Visa cards for AI agents, paid via x402 on Stellar.
+[ASG Card](https://asgcard.dev) — Instant virtual MasterCard cards for AI agents, paid via x402 on Stellar.
 
 [ASG Compute](https://asgcompute.com) — GPU infrastructure and AI agent services.
 
